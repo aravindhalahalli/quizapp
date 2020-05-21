@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title></title>
+    <style type="text/css" media="screen">
+    .single-video-wrapper {
+    border-radius: 16px;
+    overflow: hidden;
+}
+.fluid-width-video-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0;
+}
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed, .fluid-width-video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+    </style>
+  </head>
+  <body>
+    <h1>GK</h1>
+    <section>
+      <span>Level</span>
+      <a href="#easy">Easy</a>
+      <a href="#medium">Medium</a>
+      <a href="#hard">Hard</a>
+    </section>
+    <section id="easy">
+      <div>
+        <p>1.This audio is from which movie?
+          <div>
+            <audio
+                controls
+                src="assets/audio1.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+          </div>
+        </p>
+        <div></div>
+      </div>
+      <div>
+        <p>2.This scene react tut?
+          <div class="single-video-wrapper">
+            <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
+              <iframe src="https://www.youtube.com/embed/2qoumOxDirw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0">
+              </iframe>
+          </div>
+          </div>
+        </p>
+        <div></div>
+      </div>
+    </section>
+  </body>
+</html>
